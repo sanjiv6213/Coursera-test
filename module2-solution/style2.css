@@ -12,8 +12,56 @@ h1 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 175%;
-}
-
+}    
+.sub1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(214, 124, 124);
+    }
+    
+.sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: maroon;
+    }
+    
+.sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+    }
+    
+.content {
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+    }
+    
 section {
     position: relative;
     padding: 15px;
@@ -46,18 +94,6 @@ div {
     font-weight: bold;
     background-color: #b0d619;
 }
-
-.content {
-    padding: 5px;
-    border: none;
-    background-color: #bf7f3f;
-    font-family: Helvetica;
-    color: black;
-    margin: 0px;
-    height: 200px;
-    overflow: auto;
-}
-
 .row {
     width: 90%;
 }
